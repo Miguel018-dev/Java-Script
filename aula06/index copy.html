@@ -7,6 +7,7 @@
     <style>
         body{
             background-color: rgb(121, 121, 165);
+            font: normal 20px arial;
         }
 
         h1{
@@ -19,8 +20,12 @@
     <p>Java Script</p>
 
     <script>
-        window.alert("Minha primeira mensagem!")
-        window.confirm("Esta gostando de JS?")
+       var n1 = Number.parseInt(window.prompt('Digite um número: '))
+       var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+
+       s = n1 + n2
+
+       window.alert('O resultado da soma é: ' + s)
     </script>
 </body>
 </html>
